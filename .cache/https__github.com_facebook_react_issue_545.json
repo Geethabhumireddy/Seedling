@@ -1,0 +1,12 @@
+{
+  "summary": "ImmutableObject fails to enforce strict immutability on Android 2.3.6 (Gingerbread), where tests for shallow and deep mutation fail to throw expected exceptions.",
+  "type": "bug",
+  "priority_score": "2 - Legacy browser compatibility issue affecting a very old Android version",
+  "suggested_labels": [
+    "bug",
+    "android",
+    "compatibility",
+    "immutability"
+  ],
+  "potential_impact": "State immutability is not enforced on legacy Android 2.3.6 devices, potentially leading to silent state corruption in applications."
+}

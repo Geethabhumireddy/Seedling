@@ -1,0 +1,12 @@
+{
+  "summary": "Implement test isolation by executing each test module within a separate iframe to prevent global state leakage and improve environmental consistency.",
+  "type": "feature_request",
+  "priority_score": "2 - Significant reliability improvement for the test suite, but explicitly marked as non-blocking and back-burner.",
+  "suggested_labels": [
+    "testing",
+    "infrastructure",
+    "refactor",
+    "phantomjs"
+  ],
+  "potential_impact": "Improves test suite stability and reliability by ensuring clean environments for each test, reducing side effects from global state."
+}
