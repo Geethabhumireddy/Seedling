@@ -91,7 +91,7 @@ It strictly matches the required JSON schema and is ready for reuse.
   "potential_impact": "Enables proper tracking and linking of legacy Python bug tracker IDs within the project's changelog system."
 }
 
-## AI-Generated JSON Output Format
+## REQUIRED JSON Output Format
 
 ```json
 {
