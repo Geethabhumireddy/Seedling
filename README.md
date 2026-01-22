@@ -1,4 +1,4 @@
-# GitHub Issue Analyzer 
+#AI-Powered Github Issue Assistant
 
 ## Overview
 
