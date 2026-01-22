@@ -148,3 +148,58 @@ The application accounts for common real-world edge cases, including:
 - Missing or misconfigured API keys.
 
 In all cases, the application fails gracefully with clear and user-friendly error messages.
+## How to Run the Project Locally (Under 5 Minutes)
+
+### Prerequisites
+- Python 3.9 or later
+- pip (Python package manager)
+- Git
+
+### Setup and Execution Steps
+
+1. **Clone the repository and navigate into the project directory**
+   
+   `git clone <YOUR_GITHUB_REPOSITORY_URL>`  
+   `cd <REPOSITORY_NAME>`
+
+2. **Create a virtual environment**
+   
+   `python -m venv venv`
+
+3. **Activate the virtual environment**
+   
+   **Windows:**  
+   `venv\Scripts\activate`
+   
+   **macOS / Linux:**  
+   `source venv/bin/activate`
+
+4. **Install project dependencies**
+   
+   `pip install -r requirements.txt`
+
+5. **Configure environment variables**
+   
+   Create a `.env` file in the project root directory and add:
+   
+   `GEMINI_API_KEY=your_gemini_api_key`  
+   `GITHUB_TOKEN=your_github_personal_access_token`
+   
+   - `GEMINI_API_KEY` is used for AI-based issue analysis  
+   - `GITHUB_TOKEN` is used to authenticate GitHub API requests and avoid rate limits
+
+6. **Run the application**
+   
+   `streamlit run app.py`
+
+7. **Use the application**
+   - Enter a public GitHub repository URL (example: `https://github.com/facebook/react`)
+   - Enter a valid issue number (example: `24502`)
+   - Submit the input to trigger analysis
+   - View and copy the AI-generated structured JSON output displayed in the UI
+
+### Notes
+- Only public GitHub repositories are supported.
+- The application includes input validation and graceful error handling.
+- The generated output strictly follows the JSON schema defined in the assignment.
+
