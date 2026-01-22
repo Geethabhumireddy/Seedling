@@ -51,7 +51,7 @@ The following screenshot shows the main interface of the application where users
 
 
 ### Input Example
-- Repository URL: https://github.com/python/python
+- Repository URL: https://github.com/python/cpython
 - Issue Number: 1
 
 ![Input Example](screenshots/input_example.png)
@@ -130,6 +130,14 @@ The application is designed as a lightweight AI agent that orchestrates data ret
 5. The structured output is displayed in the UI and can be directly copied for reuse.
 
 This modular design ensures clarity, maintainability, and reliable AI behavior.
+
+
+## Application Flow Diagram
+
+The following diagram illustrates the end-to-end workflow of the application, from user input to AI-generated structured output.
+
+![Application Flow Diagram](flowchart.png)
+
 ## Edge Case Handling
 
 The application accounts for common real-world edge cases, including:
